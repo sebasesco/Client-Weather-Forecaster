@@ -1,0 +1,33 @@
+body, html{
+    height: 100%;
+    width: 100%;
+
+    font-family: 'Open Sans', sans-serif;
+    background: hsla(201, 88%, 69%, 1);
+
+background: linear-gradient(90deg, hsla(201, 88%, 69%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(201, 88%, 69%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(201, 88%, 69%, 1) 0%, hsla(176, 57%, 89%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#69C4F5", endColorstr="#D3F3F1", GradientType=1 );
+}
+
+.data {
+    margin: auto;
+    width: 50%;
+    border: 1px solid #000;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
